@@ -1,0 +1,322 @@
+{
+  "@@locale": "en",
+  "appTitle": "KoraIQ",
+  "tagline": "60 seconds to prove you know Egypt",
+  "signInGoogle": "Continue with Google",
+  "playAsGuest": "Play as guest",
+  "onboardingTitle": "Set up your profile",
+  "nicknameLabel": "Nickname",
+  "nicknameHint": "3–20 letters, Arabic or English",
+  "chooseClub": "Your club",
+  "birthDateLabel": "Date of birth",
+  "birthDatePick": "Select your date of birth",
+  "acceptTerms": "I agree to the Terms of Service and Privacy Policy",
+  "readPolicies": "Read the policies",
+  "continueBtn": "Continue",
+  "underAge": "Sorry, KoraIQ is available for ages 13 and up.",
+  "clubAHLY": "Al Ahly",
+  "clubZAMALEK": "Zamalek",
+  "clubPYRAMIDS": "Pyramids",
+  "clubISMAILY": "Ismaily",
+  "clubITTIHAD": "Al Ittihad",
+  "clubMASRY": "Al Masry",
+  "clubOTHER": "Other",
+  "lives": "Lives",
+  "weeklyRank": "Weekly rank",
+  "weeklyPoints": "This week",
+  "totalPoints": "All-time",
+  "playTrivia": "Play Rapid Trivia",
+  "playTriviaSub": "10 questions · 15 seconds each",
+  "matchPredictor": "Match Predictor",
+  "matchPredictorSub": "Call the result, earn up to 1,000 pts",
+  "weeklyLeaderboard": "Weekly Leaderboard",
+  "noLivesTitle": "Out of lives",
+  "noLivesBody": "Your 5 free lives refill at midnight. Watch a short video for an extra life now?",
+  "watchAdForLife": "Watch video (+1 life)",
+  "questionOf": "Question {n} of {total}",
+  "@questionOf": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "points": "{points} pts",
+  "@points": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "timeUp": "Time's up!",
+  "reviveTitle": "Save your streak?",
+  "reviveBody": "Watch a short video to skip this question and keep going.",
+  "watchAdRevive": "Watch video",
+  "endRound": "End round",
+  "verifyingReward": "Verifying your reward…",
+  "roundOver": "Round over",
+  "correctCount": "{c}/{total} correct",
+  "@correctCount": {
+    "placeholders": {
+      "c": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "tierGenius": "Certified Football Genius",
+  "tierPro": "Real Fan",
+  "tierRookie": "Back to training camp",
+  "shareScore": "Share",
+  "shareText": "I scored {score} pts on KoraIQ ⚽ Can you beat me?",
+  "@shareText": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "playAgain": "Play again",
+  "backHome": "Home",
+  "unranked": "Unranked round: this device couldn't be verified, so points won't count on the leaderboard.",
+  "homeWin": "Home",
+  "draw": "Draw",
+  "awayWin": "Away",
+  "exactScore": "Exact score (optional, +bonus)",
+  "submitPrediction": "Save prediction",
+  "saved": "Saved ✓",
+  "lockedLabel": "Locked",
+  "locksAt": "Locks {time}",
+  "@locksAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "doublePoints": "Watch video for 2× points",
+  "doubled": "2× active",
+  "earned": "+{points} pts",
+  "@earned": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "noFixtures": "No upcoming fixtures right now. Check back on matchday!",
+  "global": "Global",
+  "myClub": "My club",
+  "resetsIn": "Resets in {time}",
+  "@resetsIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "you": "You",
+  "notRankedYet": "Play a round to get on the board",
+  "sponsoredBy": "Sponsored by {name}",
+  "@sponsoredBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "promoCode": "Promo code: {code}",
+  "@promoCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "profile": "Profile",
+  "language": "Language",
+  "linkGoogle": "Link Google account",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "privacySettings": "Ad privacy choices",
+  "deleteAccount": "Delete my account & data",
+  "deleteConfirmTitle": "Delete everything?",
+  "deleteConfirmBody": "Your account, nickname, points, rounds and predictions will be permanently deleted. This can't be undone.",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "signOut": "Sign out",
+  "errorGeneric": "Something went wrong. Check your connection and try again.",
+  "errorNicknameTaken": "That nickname (or one too similar) is taken.",
+  "errorNicknameInvalid": "Please choose a different nickname.",
+  "errorLocked": "Predictions for this match are locked.",
+  "errorRateLimited": "Slow down a little and try again.",
+  "retry": "Retry",
+  "adNotReady": "No video available right now. Try again in a moment.",
+  "guestNote": "Guests can play right away. Link Google later so you never lose your progress.",
+  "guestLinkWarning": "Link your Google account so you never lose your progress.",
+  "levelN": "Level {n}",
+  "@levelN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "xpToNext": "{xp} XP to level {n}",
+  "@xpToNext": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "streakDays": "{n}-day streak",
+  "@streakDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "coins": "Coins",
+  "dailyChallenge": "Daily Challenge",
+  "dailySub": "5 questions · same for everyone · free",
+  "dailyNumber": "Daily #{n}",
+  "@dailyNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyDone": "Done for today. Next one in {time}",
+  "@dailyDone": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "playDaily": "Play today's challenge",
+  "shareResult": "Share result",
+  "topics": "Topics",
+  "mixed": "Mixed",
+  "mixedSub": "A bit of everything",
+  "tierBRONZE": "Bronze",
+  "tierSILVER": "Silver",
+  "tierGOLD": "Gold",
+  "tierDIAMOND": "Diamond",
+  "correctAnswers": "{n} correct",
+  "@correctAnswers": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "nextTierAt": "{tier} at {n}",
+  "@nextTierAt": {
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "shop": "Shop",
+  "streakFreeze": "Streak freeze",
+  "streakFreezeDesc": "Saves your streak for one missed day ({owned}/{max} held)",
+  "@streakFreezeDesc": {
+    "placeholders": {
+      "owned": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "extraLife": "Extra life",
+  "extraLifeDesc": "+1 round today ({used}/{max} bought)",
+  "@extraLifeDesc": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "buy": "Buy",
+  "owned": "Owned",
+  "equip": "Equip",
+  "equipped": "Equipped",
+  "unequip": "Remove",
+  "frames": "Avatar frames",
+  "themes": "Scorecard themes",
+  "titles": "Titles",
+  "exclusive": "Exclusive",
+  "watchAdCoins": "Watch video (+25 coins)",
+  "fiftyFifty": "50/50 · {price}",
+  "@fiftyFifty": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "fiftyNote": "50/50 makes this round unranked: you still earn XP and coins, but no leaderboard points.",
+  "rewards": "Rewards",
+  "xpGained": "+{xp} XP",
+  "@xpGained": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
+  "coinsGained": "+{coins} coins",
+  "@coinsGained": {
+    "placeholders": {
+      "coins": {
+        "type": "int"
+      }
+    }
+  },
+  "levelUp": "Level up! You're now level {n}",
+  "@levelUp": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "newBadge": "New badge: {name}",
+  "@newBadge": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "freezeUsed": "A streak freeze saved your streak",
+  "reportMistake": "Report a mistake",
+  "reported": "Thanks! We'll review this question.",
+  "myProgress": "My progress",
+  "badges": "Badges",
+  "weeklyRewardsNote": "Top 3 each week win coins and the exclusive Champion frame.",
+  "errorNoCoins": "Not enough coins yet. Play rounds to earn more.",
+  "errorDailyPlayed": "You've already played today's challenge."
+}

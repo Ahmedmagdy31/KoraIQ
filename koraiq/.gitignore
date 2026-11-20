@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+*.rdb
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/lib/l10n/app_localizations*.dart
+mobile/android/app/google-services.json
+deploy/.env
+deploy/secrets/*.json
+deploy/backups/

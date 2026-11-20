@@ -1,0 +1,26 @@
+# Automatic HTTPS (Let's Encrypt) for your API domain. DNS A record must point at the VPS first.
+{
+	email {$ACME_EMAIL}
+}
+
+{$DOMAIN} {
+	encode zstd gzip
+
+	# Android App Links verification for challenge links (phase 2). Put the file in deploy/well-known/.
+	# handle /.well-known/assetlinks.json { root * /srv; file_server }
+
+	reverse_proxy api:8080 {
+		health_uri /healthz
+		health_interval 15s
+	}
+
+	header {
+		-Server
+		X-Content-Type-Options nosniff
+	}
+
+	log {
+		output stdout
+		format console
+	}
+}

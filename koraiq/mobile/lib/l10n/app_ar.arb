@@ -1,0 +1,322 @@
+{
+  "@@locale": "ar",
+  "appTitle": "كورة IQ",
+  "tagline": "٦٠ ثانية تثبت فيهم إنك فاهم مصر",
+  "signInGoogle": "كمّل بحساب جوجل",
+  "playAsGuest": "العب كضيف",
+  "onboardingTitle": "جهّز بروفايلك",
+  "nicknameLabel": "اسمك في اللعبة",
+  "nicknameHint": "من ٣ لـ ٢٠ حرف، عربي أو إنجليزي",
+  "chooseClub": "ناديك",
+  "birthDateLabel": "تاريخ الميلاد",
+  "birthDatePick": "اختار تاريخ ميلادك",
+  "acceptTerms": "موافق على شروط الاستخدام وسياسة الخصوصية",
+  "readPolicies": "اقرا السياسات",
+  "continueBtn": "يلا بينا",
+  "underAge": "آسفين، كورة IQ متاحة من سن ١٣ سنة وأكبر.",
+  "clubAHLY": "الأهلي",
+  "clubZAMALEK": "الزمالك",
+  "clubPYRAMIDS": "بيراميدز",
+  "clubISMAILY": "الإسماعيلي",
+  "clubITTIHAD": "الاتحاد السكندري",
+  "clubMASRY": "المصري",
+  "clubOTHER": "نادي تاني",
+  "lives": "الأرواح",
+  "weeklyRank": "ترتيبك الأسبوعي",
+  "weeklyPoints": "الأسبوع ده",
+  "totalPoints": "إجمالي",
+  "playTrivia": "العب تريفيا سريعة",
+  "playTriviaSub": "١٠ أسئلة · ١٥ ثانية لكل سؤال",
+  "matchPredictor": "توقّع الماتشات",
+  "matchPredictorSub": "توقّع النتيجة واكسب لحد ١٠٠٠ نقطة",
+  "weeklyLeaderboard": "ترتيب الأسبوع",
+  "noLivesTitle": "الأرواح خلصت",
+  "noLivesBody": "الـ٥ أرواح المجانية بيتجددوا نص الليل. تتفرج على فيديو قصير وتاخد روح زيادة دلوقتي؟",
+  "watchAdForLife": "اتفرج على فيديو (+١ روح)",
+  "questionOf": "سؤال {n} من {total}",
+  "@questionOf": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "points": "{points} نقطة",
+  "@points": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "timeUp": "الوقت خلص!",
+  "reviveTitle": "تنقذ السلسلة؟",
+  "reviveBody": "اتفرج على فيديو قصير تعدّي السؤال ده وتكمّل.",
+  "watchAdRevive": "اتفرج على الفيديو",
+  "endRound": "خلّص الجولة",
+  "verifyingReward": "بنتأكد من المكافأة…",
+  "roundOver": "الجولة خلصت",
+  "correctCount": "{c}/{total} صح",
+  "@correctCount": {
+    "placeholders": {
+      "c": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "tierGenius": "عبقري كورة معتمد",
+  "tierPro": "مشجع بجد",
+  "tierRookie": "ارجع المعسكر شوية",
+  "shareScore": "شارك",
+  "shareText": "جبت {score} نقطة في كورة IQ ⚽ تقدر تغلبني؟",
+  "@shareText": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "playAgain": "العب تاني",
+  "backHome": "الرئيسية",
+  "unranked": "جولة غير محسوبة: مقدرناش نتحقق من الجهاز، فالنقط مش هتتحسب في الترتيب.",
+  "homeWin": "صاحب الأرض",
+  "draw": "تعادل",
+  "awayWin": "الضيف",
+  "exactScore": "النتيجة بالظبط (اختياري، +بونص)",
+  "submitPrediction": "احفظ التوقع",
+  "saved": "اتحفظ ✓",
+  "lockedLabel": "مقفول",
+  "locksAt": "بيقفل {time}",
+  "@locksAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "doublePoints": "اتفرج على فيديو ونقطك ×٢",
+  "doubled": "×٢ مفعّل",
+  "earned": "+{points} نقطة",
+  "@earned": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "noFixtures": "مفيش ماتشات جاية دلوقتي. ارجع يوم الماتش!",
+  "global": "الكل",
+  "myClub": "ناديّا",
+  "resetsIn": "بيتصفّر بعد {time}",
+  "@resetsIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "you": "إنت",
+  "notRankedYet": "العب جولة علشان تظهر في الترتيب",
+  "sponsoredBy": "برعاية {name}",
+  "@sponsoredBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "promoCode": "كود الخصم: {code}",
+  "@promoCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "profile": "البروفايل",
+  "language": "اللغة",
+  "linkGoogle": "اربط حساب جوجل",
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsOfService": "شروط الاستخدام",
+  "privacySettings": "اختيارات خصوصية الإعلانات",
+  "deleteAccount": "امسح حسابي وبياناتي",
+  "deleteConfirmTitle": "تمسح كل حاجة؟",
+  "deleteConfirmBody": "حسابك واسمك ونقطك وجولاتك وتوقعاتك هيتمسحوا نهائي. مينفعش نرجّعهم.",
+  "cancel": "إلغاء",
+  "delete": "امسح",
+  "signOut": "تسجيل خروج",
+  "errorGeneric": "حصلت مشكلة. اتأكد من النت وجرّب تاني.",
+  "errorNicknameTaken": "الاسم ده (أو حاجة شبهه أوي) محجوز.",
+  "errorNicknameInvalid": "اختار اسم تاني لو سمحت.",
+  "errorLocked": "التوقعات للماتش ده اتقفلت.",
+  "errorRateLimited": "براحة شوية وجرّب تاني.",
+  "retry": "جرّب تاني",
+  "adNotReady": "مفيش فيديو متاح دلوقتي. جرّب كمان شوية.",
+  "guestNote": "الضيف يقدر يلعب على طول. اربط جوجل بعدين علشان متخسرش تقدمك.",
+  "guestLinkWarning": "اربط حساب جوجل علشان متخسرش تقدمك أبدًا.",
+  "levelN": "مستوى {n}",
+  "@levelN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "xpToNext": "فاضل {xp} XP للمستوى {n}",
+  "@xpToNext": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "streakDays": "{n} يوم ورا بعض",
+  "@streakDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "coins": "العملات",
+  "dailyChallenge": "التحدّي اليومي",
+  "dailySub": "٥ أسئلة · نفس الأسئلة للكل · ببلاش",
+  "dailyNumber": "التحدّي رقم {n}",
+  "@dailyNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyDone": "خلّصت تحدّي النهارده. اللي جاي بعد {time}",
+  "@dailyDone": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "playDaily": "العب تحدّي النهارده",
+  "shareResult": "شارك النتيجة",
+  "topics": "المواضيع",
+  "mixed": "منوّع",
+  "mixedSub": "شوية من كل حاجة",
+  "tierBRONZE": "برونزي",
+  "tierSILVER": "فضي",
+  "tierGOLD": "دهبي",
+  "tierDIAMOND": "ألماظ",
+  "correctAnswers": "{n} إجابة صح",
+  "@correctAnswers": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "nextTierAt": "{tier} عند {n}",
+  "@nextTierAt": {
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "shop": "المحل",
+  "streakFreeze": "تجميد السلسلة",
+  "streakFreezeDesc": "بيحمي سلسلتك يوم واحد لو غبت ({owned}/{max} معاك)",
+  "@streakFreezeDesc": {
+    "placeholders": {
+      "owned": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "extraLife": "روح زيادة",
+  "extraLifeDesc": "+١ جولة النهارده (اشتريت {used}/{max})",
+  "@extraLifeDesc": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "buy": "اشتري",
+  "owned": "عندك",
+  "equip": "استخدم",
+  "equipped": "مستخدَم",
+  "unequip": "شيل",
+  "frames": "إطارات الصورة",
+  "themes": "تصميمات كارت النتيجة",
+  "titles": "الألقاب",
+  "exclusive": "حصري",
+  "watchAdCoins": "اتفرج على فيديو (+٢٥ عملة)",
+  "fiftyFifty": "٥٠/٥٠ · {price}",
+  "@fiftyFifty": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "fiftyNote": "الـ٥٠/٥٠ بتخلي الجولة مش محسوبة في الترتيب: هتاخد XP وعملات، بس من غير نقط ترتيب.",
+  "rewards": "المكافآت",
+  "xpGained": "+{xp} XP",
+  "@xpGained": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
+  "coinsGained": "+{coins} عملة",
+  "@coinsGained": {
+    "placeholders": {
+      "coins": {
+        "type": "int"
+      }
+    }
+  },
+  "levelUp": "مستوى جديد! إنت دلوقتي مستوى {n}",
+  "@levelUp": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "newBadge": "شارة جديدة: {name}",
+  "@newBadge": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "freezeUsed": "التجميد حمى سلسلتك",
+  "reportMistake": "بلّغ عن غلط",
+  "reported": "شكرًا! هنراجع السؤال ده.",
+  "myProgress": "تقدّمي",
+  "badges": "الشارات",
+  "weeklyRewardsNote": "أول ٣ كل أسبوع بياخدوا عملات وإطار البطل الحصري.",
+  "errorNoCoins": "عملاتك مش كفاية. العب جولات وهتجمع أكتر.",
+  "errorDailyPlayed": "إنت لعبت تحدّي النهارده خلاص."
+}

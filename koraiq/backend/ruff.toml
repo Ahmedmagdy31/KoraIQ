@@ -1,0 +1,9 @@
+line-length = 140
+target-version = "py312"
+extend-exclude = ["alembic/versions"]
+[lint]
+select = ["E", "F", "I", "B", "UP", "ASYNC"]
+ignore = ["B008"]
+[lint.per-file-ignores]
+"app/routers/public.py" = ["E501"]
+"scripts/seed_data.py" = ["E501"]
