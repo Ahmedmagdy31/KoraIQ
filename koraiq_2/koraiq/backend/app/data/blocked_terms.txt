@@ -1,0 +1,14 @@
+# One term per line. Matching is substring-based on the normalised skeleton, so each line also
+# catches diacritic, hamza/alef, ta-marbuta, leet ("4" -> a) and Franco-Arabic ("3" -> ع) variants.
+#
+# ACTION REQUIRED BEFORE LAUNCH: an Egyptian moderator must curate the Arabic / Franco-Arabic list
+# (insults, sectarian/ethnic slurs, rivalry-targeted abuse, and player/official impersonation).
+# Keep terms >= 3 characters to avoid the "Scunthorpe" false-positive problem.
+fuck
+shit
+bitch
+nigger
+faggot
+whore
+nazi
+hitler

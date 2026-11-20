@@ -1,0 +1,45 @@
+name: koraiq
+description: KoraIQ — Egyptian football trivia & match predictor.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any # pinned by flutter_localizations
+
+  # State & navigation
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+
+  # Firebase (Google sign-in via FirebaseAuth.signInWithProvider: no google_sign_in plugin needed)
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  firebase_messaging: ^15.2.5
+
+  # Networking & crypto
+  dio: ^5.8.0
+  cryptography: ^2.7.0 # AES-256-GCM for sealed questions
+  crypto: ^3.0.6 # SHA-256 request hash for Play Integrity
+
+  # Monetisation & growth
+  google_mobile_ads: ^5.3.1
+  share_plus: ^10.1.4
+  path_provider: ^2.1.5
+  qr_flutter: ^4.1.0
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true # gen-l10n from lib/l10n/*.arb
